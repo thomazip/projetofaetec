@@ -1,0 +1,98 @@
+.starter-template {
+    margin-top: 7.5%;
+    margin-left: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+
+.aluno {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espaçamento entre os grupos de formulários */
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+}
+
+.form-group label {
+    width: 120px; /* Ajuste conforme necessário para alinhar com o maior texto */
+    margin-right: 10px; /* Espaço entre o label e o input */
+    text-align: right; /* Alinha o texto à direita para melhor alinhamento */
+}
+
+.form-group input {
+    flex: 1; /* Faz o input ocupar o espaço restante */
+}
+
+.n1 {
+    width: 80px; /* Ajuste conforme necessário para as notas */
+}
+
+
+/* Aumenta o tamanho das checkboxes */
+.checkboxes input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    transform: scale(1.5); /* Aumenta o tamanho das checkboxes */
+    margin-right: 10px; /* Espaço entre a checkbox e o texto */
+}
+
+/* Estiliza os rótulos das checkboxes para melhor alinhamento */
+.checkboxes label {
+    font-size: 16px; /* Ajusta o tamanho da fonte dos rótulos */
+    vertical-align: middle; /* Alinha verticalmente os rótulos ao meio das checkboxes */
+}
+
+
+.navbar-brand {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+h1 {
+    font-size: 32px;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #34495e;
+    text-align: center;
+    margin-bottom: 18px;
+    font-weight: normal;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);
+    letter-spacing: 1px;
+}
+h4 {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
