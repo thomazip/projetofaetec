@@ -3,4 +3,4 @@ Projeto que consiste em um site com um menu que navega por diversos jogos e ativ
 
 ## Página principal
 
-![image](https://github.com/user-attachments/assets/93a843da-75cd-4e46-934e-38798ff8eb5a)
+![image](https://github.com/user-attachments/assets/3b9d0c5a-338e-47d3-b7ef-193e999f747b)
