@@ -1,0 +1,8 @@
+.starter-template{
+    border: 1px solid;
+margin-top: 90px;
+text-align: center;
+box-shadow: 2px 4px 8px black;
+}
+
+body{background-color: #b8d2ef;}

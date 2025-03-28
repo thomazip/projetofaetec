@@ -1,0 +1,62 @@
+create database php202401N1
+
+-- acessar php202401N1 -- 
+
+create table Cliente(
+IdCliente int not null Primary key Auto_Increment,
+CodigoDoCliente varchar (50),
+NomeDaEmpresa varchar (80),
+NomeDoContato varchar (80),            (quantidade de caracteres)
+Cidade varchar (50)
+)
+
+select * from Cliente  ( consultar dados na tabela )
+
+
+insert into Cliente(
+CodigoDoCliente,NomeDaEmpresa,NomeDoContato,Cidade)
+values(
+'RJ001','FAETECH','Fernando Thomaz','Rio de Janeiro')
+
+
+insert into Cliente
+(CodigoDoCliente,NomeDaEmpresa,NomeDoContato,Cidade)
+values
+('SP001','Juventus','Cristiano Ronaldo','São Paulo'),
+('SP002','S.E.P','Raphael Veiga','São Paulo'),
+('SP003','Palmeiras','Dudu','Ubatuba'),
+('RJ002','América','Romário','Rio de Janeiro'),
+('RS001','Grêmio','Dudu2014','Balneário Camboriu'),
+('MG001','Atlético MG','Hulk','Minas Gerais')
+
+
+select NomeDaEmpresa,Cidade from Cliente
+order by NomeDaEmpresa,NomeDoContato
+
+select NomeDaEmpresa,Cidade from Cliente
+where Cidade = 'Rio de Janeiro'
+order by NomeDaEmpresa,NomeDoContato
+
+select NomeDaEmpresa,Cidade from Cliente
+where Cidade - 'Rio de Janeiro'
+and NomeDaEmpresa = 'Faetech'
+order by NomeDaEmpresa,NomeDoContato
+
+select NomeDaEmpresa,Cidade from Cliente
+where IdCliente = 3
+
+select NomeDaEmpresa,Cidade from Cliente
+where IdCliente <= 5
+
+
+
+update cliente
+set nomedaempresa = 'Palmeiras'
+where idcliente = 3
+
+update cliente 
+set cidade = 'Porto Alegre'
+where cidade = 'Balneário Camboriu'
+
+delete from cliente 
+where idcliente = 7
